@@ -1,0 +1,122 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+#sinir{
+	width:950px;
+	height:1000px;
+	margin-left:auto;
+    margin-right:auto;
+}
+
+#sinir #logo{
+    width: 250px;
+    height: 170px;
+    float: left;
+}
+
+
+#sinir #tanitim{
+    float: left;
+    background-image: url(resimler/tanitim.jpg);
+    width:700px;
+    height:40px;
+    padding-top: 130px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+#sinir #menu{
+	width:950px;
+	height: 40px;
+	background-color: #000;
+	line-height: 40px; 
+	clear: left;
+	text-align: center;
+}
+
+#sinir #menu a{
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 5px 15px 5px 15px;
+	background-color:#000; 
+}
+
+#sinir #menu a:hover{
+	border-bottom:5px solid #fff; 
+}
+
+#sinir .urun{
+	width: 465px;
+	height: 230px;
+	margin: 5px;
+	float: left;
+}
+
+#sinir .urun .baslik{
+    height:30px;
+    font-weight: bold;
+    font-size:16px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+#sinir .urun .foto{
+    width: 200px;
+    height: 140px;
+    margin-right:5px;
+    float: left;
+}
+
+#sinir .urun .foto img:hover{
+	filter:contrast(150%);
+}
+
+#sinir .urun .yanyazi{
+    float: left;
+    width: 260px;
+    height: 140px;
+    text-align: justify;
+    font-size:14px;
+    line-height: 20px;
+}
+
+#sinir .urun .altyazi{
+    width: 465px;
+    height: 60px;
+    font-size:14px;
+	text-align:justify;
+	line-height:20px;	
+	clear:left;
+}
+
+#sinir #copyright{
+	width:950px;
+	height:40px;
+	background-color:#000;
+	clear:left;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	text-transform:capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
